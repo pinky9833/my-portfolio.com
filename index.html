@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="pp.css">
+    <script src="https://kit.fontawesome.com/9ac64e8b04.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Your paragraph text (1).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">My Intro</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Pinky Kumari</span><br/> From India </h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pinkyprince.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">My Intro</h1>
+                    <p>
+                       A Frontend Developer, A Quick Learner and A Coder <br/>
+                       I am a Student of Data Science & Artificial Intelligence.
+                       I love to edit videos and I am just a beginner in editing the videos.
+                       I am in second year of my undergraduate course but I have a curiosity in learning new things.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br/>Designing Web/App Interfaces</li>
+                            <li><span>Frontend Development</span><br/>Web App Development</li>
+                            <li><span>Editor</span><br/>Editing Photos/Videos</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-May</span><br/>Internship At College</li>
+                            <li><span>2023-2024</span><br/>Hackathons in teams and made websites and clones using
+                            frontend technologies </li>
+                            <li><span>2020-2024</span><br/>Editing Small Photos/Videos using technologies and made a youtube channel
+                            of a influencer and got a silver play button for this but not earning due to copyright claims</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br/>Passed 10th from CBSE Boards</li>
+                            <li><span>2022</span><br/>Passed 12th from JVM Shyamali, Ranchi</li>
+                            <li><span>2022-2025</span><br/>Pursuing BCA in Data Science & Artificial Intelligence</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        HTML <br/>
+                        CSS <br/>
+                        JavaScript <br/>
+                        React js
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        I am a UI/UX Web Designer.<br/> I can help you with your projects on desgning a web page 
+                        and made websites and clones using
+                        frontend technologies
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <h2>Editor</h2>
+                    <p>
+                        Editing Small Photos/Videos using technologies and made a youtube channel
+                        of a influencer and got a silver play button for this but not earning due to copyright claims
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Screenshot (61).png" >
+                    <div class="layer">
+                        <h3>Student App</h3>
+                        <p>Made a platform for the students which help them to learn new courses.<br/>
+                            Teamwork fosters collaboration, enhances creativity.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Screenshot (62).png" >
+                    <div class="layer">
+                        <h3>A College Website</h3>
+                        <p>Empowering futures through education: Your college journey begins here,
+                            where knowledge meets innovation on our website crafted for academic excellence</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Screenshot (60).png" >
+                    <div class="layer">
+                        <h3>Amazon Clone</h3>
+                        <p>Experience the ultimate online shopping adventure with our Amazon-inspired clone,
+                            offering a seamless blend of convenience, choice, and unbeatable deals</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>pinkykumari@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 9142194339</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/pin_ky9833?utm_source=qr&igsh=MzdyanVxcXl4cXhu">
+                            <i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/pinky-kumari-072811243?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                            <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.snapchat.com/add/pinky_9833?share_id=h1kH1-bF0GU&locale=en-US">
+                            <i class="fa-brands fa-snapchat"></i></a>
+                        <a href="https://youtube.com/@princeprincessworld?si=rAJ7MC7svWQcc0ds">
+                            <i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="cv.txt" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="E-mail" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © P Made With <i class="fa-solid fa-heart"></i> Easy Tutorials</p>
+        </div>
+    </div>
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzpk2XBl8OmGXDsfMsoKm0vrUl_2jweQHMyrhOpxARhFQg_T1Qkmlmye4CGoyMMew/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
